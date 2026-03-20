@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lorem ipsum</title>
+    <title>Historia de JavaScript</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
@@ -14,17 +14,17 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark nav-custom shadow-sm">
             <div class="container">
-                <a class="navbar-brand brand-font" href="index.html">Lorem ipsum</a>
+                <a class="navbar-brand brand-font" href="index.html">JavaScript</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSecundario" aria-controls="navbarSecundario" aria-expanded="false" aria-label="Alternar navegación">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSecundario">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Lorem ipsum</a>
+                            <a class="nav-link" href="index.html">¿Qué es JavaScript?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="pagina.html">Lorem ipsum</a>
+                            <a class="nav-link active" aria-current="page" href="pagina.html">Historia de JavaScript</a>
                         </li>
                     </ul>
                 </div>
@@ -33,81 +33,93 @@
     </header>
 
     <main>
-        <section class="py-5 section-soft">
+        <section id="seccion-origen" class="py-5 section-soft">
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-3">
                         <p class="mb-0">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            JavaScript nacio en 1995, en una epoca en la que las paginas web empezaban a volverse mas complejas.
+                            Los formularios y la interaccion crecian, y HTML por si solo ya no alcanzaba para ofrecer una buena experiencia.
                         </p>
                     </div>
                     <div class="col-lg-3 d-flex justify-content-center">
-                        <div class="placeholder-box" aria-label="Imagen de referencia"></div>
+                        <div class="placeholder-box d-flex align-items-center justify-content-center text-center p-3" aria-label="Linea de tiempo inicial de JavaScript">
+                            <strong>1995<br>Inicio de JavaScript</strong>
+                        </div>
                     </div>
                     <div class="col-lg-3">
                         <p class="mb-0">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Su gran ventaja fue ejecutarse directamente en el navegador, sin compilaciones complicadas.
+                            Eso permitio validar datos y responder a acciones del usuario de forma inmediata.
                         </p>
                     </div>
                     <div class="col-lg-3 d-flex justify-content-center">
-                        <div class="placeholder-box" aria-label="Lorem ipsum"></div>
+                        <div class="placeholder-box d-flex align-items-center justify-content-center text-center p-3" aria-label="Ilustracion de JavaScript en estilo vectorial">
+                            <img src="imagenes/javascript-ilustraciones-vectoriales-dibujos-animados-aislados_107173-22521.avif" alt="Ilustracion vectorial de JavaScript" class="img-fluid rounded shadow-sm">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-5 section-strong">
+        <section id="seccion-usos" class="py-5 section-strong">
             <div class="container">
                 <div class="row g-4 align-items-start">
                     <div class="col-lg-3">
-                        <h2 class="section-title h3">Lorem ipsum</h2>
-                        <div class="video-wire" aria-label="Lorem ipsum"></div>
+                        <h2 class="section-title h3">Creador y origen</h2>
+                        <div class="video-wire d-flex align-items-center justify-content-center text-center p-3" aria-label="Bloque sobre Brendan Eich">
+                            <strong>Brendan Eich<br>Netscape, 1995</strong>
+                        </div>
                     </div>
                     <div class="col-lg-3">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Brendan Eich creo el lenguaje en Netscape para resolver las limitaciones del desarrollo web de ese momento.
+                            El nombre inicial fue LiveScript, y despues paso a llamarse JavaScript para aprovechar la popularidad de Java.
                         </p>
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p class="mb-0">Aunque comparten ciertas similitudes de sintaxis, JavaScript y Java son tecnologias diferentes.</p>
                     </div>
                     <div class="col-lg-3">
-                        <h2 class="section-title h3">Lorem ipsum</h2>
-                        <div class="video-wire" aria-label="Lorem ipsum"></div>
+                        <h2 class="section-title h3">Estandares y evolucion</h2>
+                        <div class="video-wire d-flex align-items-center justify-content-center text-center p-3" aria-label="Bloque sobre ECMAScript">
+                            <strong>1997<br>ECMAScript</strong>
+                        </div>
                     </div>
                     <div class="col-lg-3">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            En 1996 Internet Explorer incorporo soporte para JavaScript y acelero su adopcion.
+                            Luego, en 1997, Ecma International estandarizo el lenguaje bajo el nombre tecnico ECMAScript.
                         </p>
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p class="mb-0">Con los anos llegaron frameworks como Angular y React, y Node.js lo llevo tambien al backend.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-5 section-soft border-bottom border-secondary-subtle">
+        <section id="seccion-aprendizaje" class="py-5 section-soft border-bottom border-secondary-subtle">
             <div class="container">
                 <div class="row g-4 align-items-start">
                     <div class="col-lg-6">
-                        <h2 class="brand-font display-6 mb-3">Lorem ipsum</h2>
+                        <h2 class="brand-font display-6 mb-3">JavaScript en la actualidad</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Hoy JavaScript es parte esencial de la web moderna junto con HTML y CSS.
+                            Se usa en navegadores, servidores, apps moviles y muchos otros entornos de desarrollo.
                         </p>
                         <p class="mb-0">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Tambien es uno de los lenguajes mas demandados laboralmente.
+                            Su facilidad para empezar, su enorme comunidad y su versatilidad lo convierten en una excelente opcion para aprender programacion.
                         </p>
                     </div>
                     <div class="col-lg-6">
                         <div class="row g-3">
                             <div class="col-6 d-flex justify-content-center">
-                                <div class="placeholder-square" aria-label="Lorem ipsum"></div>
+                                <div class="placeholder-square d-flex align-items-center justify-content-center text-center p-3" aria-label="Dato sobre uso de JavaScript">
+                                    <strong>98% de sitios web usan JavaScript</strong>
+                                </div>
                             </div>
                             <div class="col-6 d-flex justify-content-center">
-                                <div class="placeholder-square" aria-label="Lorem ipsum"></div>
+                                <div class="placeholder-square d-flex align-items-center justify-content-center text-center p-3" aria-label="Grafica de popularidad de lenguajes de programacion">
+                                    <img src="imagenes/mas popular.png" alt="Grafica de popularidad de lenguajes donde JavaScript lidera" class="img-fluid rounded shadow-sm">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -121,21 +133,33 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <ol class="mb-0">
-                        <li>Lorem ipsum</li>
-                        <li class="mt-1">Lorem ipsum</li>
-                        <li class="mt-2">Lorem ipsum</li>
+                        <li>
+                            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">Documentacion oficial de JavaScript (MDN)</a>
+                        </li>
+                        <li class="mt-1">
+                            <a href="#seccion-origen">Origen de JavaScript (1995)</a>
+                        </li>
+                        <li class="mt-2">
+                            <a href="#seccion-aprendizaje">Evolucion y actualidad</a>
+                        </li>
                     </ol>
                 </div>
                 <div class="col-md-4 text-center">
-                    <p class="mb-2">Lorem ipsum</p>
-                    <p class="mb-2">Lorem ipsum</p>
-                    <p class="mb-0">Lorem ipsum</p>
+                    <p class="mb-3">Tema: Historia de JavaScript</p>
+                    <div class="d-flex justify-content-center align-items-center gap-3 tech-logos">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Logo HTML" loading="lazy">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Logo CSS" loading="lazy">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Logo JavaScript" loading="lazy">
+                    </div>
+                    <p class="mb-0 mt-3">
+                        <a href="index.html" target="_blank" rel="noopener noreferrer">Ir a la pagina: ¿Que es JavaScript?</a>
+                    </p>
                 </div>
                 <div class="col-md-4">
                     <ol class="mb-0">
-                        <li>Lorem ipsum</li>
-                        <li class="mt-1">Lorem ipsum</li>
-                        <li class="mt-2">Lorem ipsum</li>
+                        <li>Deivy Santiago</li>
+                        <li class="mt-1"><a href="mailto:deivysantiago.dev@gmail.com">deivysantiago.dev@gmail.com</a></li>
+                        <li class="mt-2"><a href="tel:+573143541140">3143541140</a></li>
                     </ol>
                 </div>
             </div>
